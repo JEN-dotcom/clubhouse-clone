@@ -2,7 +2,7 @@
 
 Clubhouse UI clone built with react-js.
 
-Deployed [here](https://).
+Deployed [here](https://clubhouse-ui-clone.netlify.app/).
 
 <br>
 
