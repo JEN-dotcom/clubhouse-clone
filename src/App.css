@@ -1,0 +1,60 @@
+:root {
+  --textColor: rgb(65, 64, 66);
+  --btnBgColor: #3287b7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{ 
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Neutrif Pro";
+}
+
+button {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primaryBtn {
+  background-color: var(--btnBgColor);
+  color: #fff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.app_layout {
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.react-swipeable-view-container{
+  box-shadow: none !important;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.ReactSwipeableBottomSheet--open{
+  box-shadow: rgba(0 0 0 / 16%) 0px -6px 5px;
+
+}
